@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#header{
+    background-color: #FFF159;
+}
+
+.pesquisa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    flex-wrap: wrap;
+}
+
+.pesquisa .ynfuan{
+    width: 125px;
+    height: 125px;
+}
+
+.pesquisa .dewis{
+    background-color: #F5F5DC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.pesquisa .botao{
+    background-color: #FFF159;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.produto .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.ofertaDia h1{
+    font-size: 15px;
+    margin: 5px;
+}
+
+main .ofertaDia .ofertas div{
+    width: auto;
+    display: inline-block;
+    margin: 20px;
+    padding: 60px;
+    border: solid black;
+    border-radius: 25px;
+}
+
+main .ofertaDia .ofertas .botwm{
+    border-radius: 10px;
+    background-color: blue;
+    color: whitesmoke;
+    padding: 2px;
+}
+
+main .ofertaDia .ofertas .testun{
+    color: #C0C0C0;
+    font-size: 12px;
+}
+
+main .ofertaDia .ofertas img{
+    width: 80px;
+    height: 80px;
+}
+
+.variasOfertas h2{
+    font-size: 20px;
+    text-align: center;
+}
+
+.variasOfertas .container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.ofertaDia h2{
+    font-size: 15px;
+    margin: 5px;
+}
+
+#rodape{
+    background-color: #FFF159;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#rodape .divEsquerda{
+    background-image: url("img/rodape.png");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: left;
+}
+
+#rodape .divEsquerda .textoEsquerdaCima{
+    padding: 20px;
+}
+
+#rodape .divEsquerda .textoEsquerdaBaixo{
+    padding: 20px;
+}
+
+#rodape .divDireita{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Aqui começa o css da pagina de cadastro */
+
+#maincadastro {
+    background-color: whitesmoke;
+    color: #383838;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    height: 80vh;
+}
+
+.formAssinatura input, 
+.formAssinatura select {
+    width: 614px;
+    height: 38px;
+    background: #D9D9D9;
+    border: 1px solid #000000;
+    margin-top: 40px;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botaao{
+ width: 285px;
+ height: 60px;
+ background: #8FBC8F;
+ border: 4px solid #000000;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 36px;
+ line-height: 44px;
+ display: block;
+ color:  #3F0F0F;
+ margin: 0 auto;
+ margin-top: 40px;
+ cursor: pointer;
+ border-radius: 20px;
+}
+
+/* Aqui termina o css da pagina de cadastro */
