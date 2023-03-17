@@ -116,7 +116,7 @@ main .ofertaDia .ofertas img{
 }
 
 #rodape .divEsquerda{
-    background-image: url("img/rodape.png");
+    background-image: url("../img/rodape.png");
     background-size: cover;
     background-repeat: repeat;
     background-position: left;
