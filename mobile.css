@@ -1,0 +1,12 @@
+/* Aqui começa o responsivo da pagina de contato */
+
+@media(max-width:815px){
+    #maincadastro .caixa{
+        display: block;
+    }
+}
+
+
+
+
+/* Aqui termina o reponsivo da pagina de contato */
