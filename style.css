@@ -238,3 +238,10 @@ main .ofertaDia .ofertas img{
     border-radius: 25px;
     text-align: left;
 }
+
+/* Aqui começa o css da pagina de ofertas */
+
+.ofertaDia .ofertas .производ{
+    color: goldenrod;
+    font-size: small;
+}
