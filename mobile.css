@@ -23,3 +23,13 @@
 }
 
 /* Aqui termina o reponsivo da pagina de contato */
+
+/* Aqui começa o responsivo da pagina de cadastro */
+
+@media(max-width: 640px){
+    .formAssinatura{
+        display: block;
+    }
+}
+
+/* Aqui termina o responsivo da pagina de cadastro */
