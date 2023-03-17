@@ -189,4 +189,8 @@ main .ofertaDia .ofertas img{
     height: 45px;
 }
 
+#maincadastro .caixa p{
+    line-height: 1.65em;
+    margin-bottom: 1em;
+}
 /* Aqui termina o css da pagina de contato */
