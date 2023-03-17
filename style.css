@@ -50,6 +50,7 @@ a {
     margin: 10px;
     padding: 10px;
     text-align: center;
+    overflow: auto;
 }
 
 .ofertaDia h1{
@@ -96,6 +97,7 @@ main .ofertaDia .ofertas img{
     margin: 10px;
     padding: 10px;
     text-align: center;
+    overflow: auto;
 }
 
 .ofertaDia h2{
