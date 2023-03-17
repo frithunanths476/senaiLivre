@@ -173,3 +173,20 @@ main .ofertaDia .ofertas img{
 }
 
 /* Aqui termina o css da pagina de cadastro */
+
+/* Aqui começa o css da pagina de contato */
+
+.caixa{
+    background-color: #F5FFFA;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25px;
+    text-align: left;
+}
+
+.produto .container img{
+    width: 45px;
+    height: 45px;
+}
+
+/* Aqui termina o css da pagina de contato */
