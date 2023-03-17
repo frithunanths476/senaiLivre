@@ -1,2 +1,23 @@
 /* Aqui começa o responsivo da pagina de contato */
 
+@media only screen and (max-width: 600px) {
+    
+    body {
+      font-size: 14px;
+    }
+    
+    #header {
+      padding: 10px;
+    }
+    
+    .caixa {
+      padding: 20px;
+    }
+    
+    .redes {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+  }
+  
