@@ -1,10 +1,6 @@
 /* Aqui começa o responsivo da pagina de contato */
 
-@media only screen and (max-width: 600px) {
-    
-    body {
-      font-size: 14px;
-    }
+@media (max-width: 815px) {
     
     #header {
       padding: 10px;
@@ -19,5 +15,11 @@
       justify-content: space-between;
       margin-top: 20px;
     }
-  }
-  
+
+    #rodape{
+        display: none;
+    }
+
+}
+
+/* Aqui termina o reponsivo da pagina de contato */
