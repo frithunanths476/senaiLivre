@@ -201,3 +201,40 @@ main .ofertaDia .ofertas img{
     margin-bottom: 1em;
 }
 /* Aqui termina o css da pagina de contato */
+
+/* Aqui começa o css da pagina de vendas */
+
+.caixa .Gumb{
+    width: 142px;
+    height: 50px;
+    background: #FFF159;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 44px;
+    display: block;
+    margin-top: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.caixa .besedilo{
+    color: #87CEEB;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+#mainvendas .texto{
+    color: #4F4F4F;
+    font-size: 10px;
+    margin: 3px;
+    text-align: left;
+}
+
+.carrinho{
+    background-color: #F5FFFA;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25px;
+    text-align: left;
+}
