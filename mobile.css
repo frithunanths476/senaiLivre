@@ -26,9 +26,9 @@
 
 /* Aqui começa o responsivo da pagina de cadastro */
 
-@media(max-width: 640px){
-    .formAssinatura{
-        display: block;
+@media(max-width: 630px){
+    form.formAssinatura{
+        size: 25px;
     }
 }
 
