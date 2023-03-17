@@ -185,18 +185,15 @@ main .ofertaDia .ofertas img{
 }
 
 #maincadastro .div .redes a{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    display: inline-block;
     margin: 10px;
     padding: 10px;
     text-align: center;
 }
 
 .div .redes img{
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
 }
 
 #maincadastro .caixa p{
