@@ -251,3 +251,42 @@ main .ofertaDia .ofertas img{
 /* Aqui termina o css da pagina de ofertas */
 
 /* Aqui começa o css da pagina do produto */
+  
+  .hysbysebu {
+    text-align: center;
+  }
+  
+  .enw {
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .gwybodaeth {
+    margin-top: 20px;
+  }
+  
+  .pris {
+    text-align: center;
+  }
+  
+  .caixa {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 10px;
+  }
+  
+  .testun {
+    font-size: 14px;
+    color: grey;
+  }
+  
+  .производ {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+/* Aqui termina o css da pagina de produto */
