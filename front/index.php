@@ -36,10 +36,10 @@
 
             <nav>
                 
-                <a href="venda.html"><button class="botao">Carrinho</button></a>
-                <a href="contato.html"><button class="botao">Contato</button></a>
-                <a href="login.html"><button class="botao">Entrar</button></a>
-                <a href="cadastro.html"><button class="botao">Criar uma conta</button></a>
+                <a href="venda.php"><button class="botao">Carrinho</button></a>
+                <a href="contato.php"><button class="botao">Contato</button></a>
+                <a href="login.php"><button class="botao">Entrar</button></a>
+                <a href="cadastro.php"><button class="botao">Criar uma conta</button></a>
             
             </nav>
         </div>
@@ -133,7 +133,7 @@
                 </div>
 
                 <div>
-                    <p><a href="ofertas.html">Mais ofertas...</a></p>
+                    <p><a href="ofertas.php">Mais ofertas...</a></p>
                 </div>
 
             </section>
@@ -226,7 +226,7 @@
                 </div>
 
                 <div>
-                    <p><a href="promocoes.html">Mais promoções...</a></p>
+                    <p><a href="promocoes.php">Mais promoções...</a></p>
                 </div>
 
             </section>

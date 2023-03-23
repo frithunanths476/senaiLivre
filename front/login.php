@@ -18,7 +18,7 @@
             
             <img src="../img/senai.png" alt="Logo" class="ynfuan">
              
-                <a href="index.html"><button class="botao">Voltar</button></a>
+                <a href="index.php"><button class="botao">Voltar</button></a>
                 
         </div>
 
@@ -30,14 +30,38 @@
 
         <form action="" method="post" class="formAssinatura">
             
-            <input type="text" id="E-mail" required minlength="3" placeholder="Informe o seu Nome">
-            <input type="password" id="E-mail" required minlength="3" placeholder="Informe a sua senha">
+            
+            <input type="text" name="login" id="login" required minlength="3" placeholder="Informe o seu login">
+            <input type="password" name="senha" id="senha" required minlength="3" placeholder="Informe a sua senha">
 
-            <a href="index.html"><button class="botaao" type="submit">Entrar</button></a>
+<?php
+    include("../conexao.php");
+
+    if ($_SERVER["REQUEST_METHOD"] == "POST"){
+        $senha = $_POST["senha"];
+        $login = $_POST["login"];
+
+        $sql = "SELECT * FROM usuario WHERE login = :login AND senha = :senha";
+        $stmt = $conexao->prepare($sql);
+        $stmt->bindvalue(":senha", $senha);
+        $stmt->bindvalue(":login", $login);
+        $stmt->execute();
+
+        if($stmt->rowCount() > 0){
+            $res = "Pode Logar";
+        }else{
+            $res = "Não pode logar";
+        }
+
+        echo "<script>alert('{$res}');</script>";
+    }
+?>
+
+            <a href="index.php"><button class="botaao" type="submit">Entrar</button></a>
         
         </form>
 
-        <a href="cadastro.html"><button class="botaao" type="submit">Não tem conta?</button></a>
+        <a href="cadastro.php"><button class="botaao" type="submit">Não tem conta?</button></a>
         
     </main>
 

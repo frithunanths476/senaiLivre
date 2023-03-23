@@ -8,17 +8,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/mobile.css">
-    <title>Promoções</title>
+    <title>Ofertas</title>
 </head>
 <body>
-
+        
     <header id="header">
         
         <div class="pesquisa">
             
             <img src="../img/senai.png" alt="Logo" class="ynfuan">
              
-                <a href="index.html"><button class="botao">Voltar</button></a>
+                <a href="index.php"><button class="botao">Voltar</button></a>
                 
         </div>
 
@@ -30,48 +30,89 @@
         <div class="ofertaDia">
             
             <section class="ofertas">
+                
+                <div>
+                    <img src="../img/fritadeira.png" alt="">
+                    <h4><button class="botwm">Ofertas do dia</button></h4>
+                    <p>R$670.00</p>
+                    <p class="testun">Fritadeira de ar</p>
+                    <a href="produto.php"><p class="производ">Veja o produto</p></a>
+                </div>
+    
+                <div>
+                    <img src="../img/camera.png" alt="">
+                    <h4><button class="botwm">Ofertas do dia</button></h4>
+                    <p>R$300.00</p>
+                    <p class="testun">Camera fotografica</p>
+                    <a href="produto.php"><p class="производ">Veja o produto</p></a>
+                </div>
+                
+                <div>
+                    <img src="../img/laptop.png" alt="">
+                    <h4><button class="botwm">Ofertas do dia</button></h4>
+                    <p>R$1900.00</p>
+                    <p class="testun">LapTop</p>
+                    <a href="produto.php"><p class="производ">Veja o produto</p></a>
+                </div>
+                
+                <div>
+                    <img src="../img/cadeiraGamer.png" alt="">
+                    <h4><button class="botwm">Ofertas do dia</button></h4>
+                    <p>R$1600.00</p>
+                    <p class="testun">Cadeira Gamer</p>
+                    <a href="produto.php"><p class="производ">Veja o produto</p></a>
+                </div>
+    
+                <div>
+                    <img src="../img/meias.png" alt="">
+                    <h4><button class="botwm">Ofertas do dia</button></h4>
+                    <p>R$70.00</p>
+                    <p class="testun">Meias</p>
+                    <a href="produto.php"><p class="производ">Veja o produto</p></a>
+                </div>
 
                 <div>
                     <img src="../img/ofFerramentas.png" alt="Ferramentas">
-                    <h4><button class="botwm">Promoção do dia</button></h4>
+                    <h4><button class="botwm">Oferta do dia</button></h4>
                     <p>R$670.00</p>
                     <p class="testun">Caixa de ferramentas</p>
+                    <a href="produto.php"><p class="производ">Veja o produto</p></a>
                 </div>
 
                 <div>
                     <img src="../img/ofTvs.png" alt="Televisor">
-                    <h4><button class="botwm">Promoção do dia</button></h4>
+                    <h4><button class="botwm">Ofertas do dia</button></h4>
                     <p>R$300.00</p>
                     <p class="testun">Televisores</p>
+                    <a href="produto.php"><p class="производ">Veja o produto</p></a>
                 </div>
 
                 <div>
                     <img src="../img/ofCelulares.png" alt="Celulares">
-                    <h4><button class="botwm">Promoção do dia</button></h4>
+                    <h4><button class="botwm">Ofertas do dia</button></h4>
                     <p>R$1900.00</p>
                     <p class="testun">Celulares</p>
+                    <a href="produto.php"><p class="производ">Veja o produto</p></a>
                 </div>
 
                 <div>
                     <img src="../img/ofTvs2.png" alt="Televisor 4K">
-                    <h4><button class="botwm">Promoção do dia</button></h4>
+                    <h4><button class="botwm">Ofertas do dia</button></h4>
                     <p>R$1600.00</p>
                     <p class="testun">Televisores 4K</p>
+                    <a href="produto.php"><p class="производ">Veja o produto</p></a>
                 </div>
 
                 <div>
                     <img src="../img/ofCalcas.png" alt="Calças">
-                    <h4><button class="botwm">Promoção do dia</button></h4>
+                    <h4><button class="botwm">Ofertas do dia</button></h4>
                     <p>R$70.00</p>
                     <p class="testun">Calças</p>
-                </div>
-
-                <div>
-                    <p>Sem mais promoções por hoje</p>
+                    <a href="produto.php"><p class="производ">Veja o produto</p></a>
                 </div>
 
             </section>
-
+            
         </div>
 
     </main>
@@ -124,6 +165,6 @@
         </div>
 
     </footer>
-    
+
 </body>
 </html>

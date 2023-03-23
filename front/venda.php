@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/mobile.css">
-    <title>Contato</title>
+    <title>Carrinho</title>
 </head>
 <body>
 
@@ -18,65 +18,34 @@
             
             <img src="../img/senai.png" alt="Logo" class="ynfuan">
              
-                <a href="index.html"><button class="botao">Voltar</button></a>
+                <a href="index.php"><button class="botao">Voltar</button></a>
                 
         </div>
+
 
     </header>
 
-    <main id="maincadastro">
+    <main id="mainvendas">
         
         <div class="caixa">
-           
-            <P>Olá! Seja bem vindo ao site do SENAI Livre!</P>
-            <p>Aqui nós oferecemos uma variedade dos melhores produtos disponiveis no mercado, com: </p>
-            <p>º Calças</p>
-            <p>º Celulares</p>
-            <p>º Televisores</p>
-            <p>º LapTops</p>
-            <p>E muito mais!</p>
-            <p>Para entrar em contato com nós, você pode acessar uma das nossas redes sociais: </p>
+            
+            <h1>Seu carrinho de compras está vazio</h1>
+            <p class="besedilo">Compre ofertas do dia</p>
+            <a href="ofertas.php"><button class="Gumb">Compre agora!</button></a>
 
-            <div class="div">
-                
-                <div class="redes">
-                    
-                    <nav>
-                        
-                        <a href="https://www.instagram.com/" target="_blank">
-    
-                            <img src="../img/Instagram_icon.png.webp" alt="Logo do Intagram">
-            
-                        </a>
-            
-                        <a href="https://pt-br.facebook.com/" target="_blank">
-            
-                            <img src="../img/logoFacebook.png" alt="Logo do facebook">
-            
-                        </a>
-            
-                        <a href="https://br.linkedin.com/" target="_blank">
-                            
-                            <img src="../img/logoLinkedin.png" alt="Logo do Linkedin">
-            
-                        </a>
-    
-                        <a href="https://mail.google.com/" target="_blank">
-                            
-                            <img src="../img/logoGmail.png" alt="Logo do Gmail">
-
-                        </a>
-
-                    </nav>
-    
-                </div>
-
-            </div>
-        
         </div>
 
-    </main>
+        <div class="carrinho">
 
+            <h2>Quantidade de compras até o momento: </h2>
+
+        </div>
+
+        <p class="texto">O preço e a disponibilidade dos produtos na SENAI Livre estão sujeitos a alterações. O carrinho de compras é um local temporário para armazenar uma lista de seus produtos e reflete o preço mais atualizado de cada um deles.</p>
+        <p class="texto">Você tem um cartão-presente ou um código promocional? Solicitaremos que você insira seu código de reivindicação quando for a hora de pagar.</p>
+
+    </main>
+    
     <footer id="rodape">
         
         <div class="divEsquerda">
@@ -125,6 +94,6 @@
         </div>
 
     </footer>
-    
+
 </body>
 </html>
