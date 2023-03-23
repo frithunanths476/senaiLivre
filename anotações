@@ -1,0 +1,16 @@
+dc = div de cima
+    tc = texto de cima
+    qc = quadrados de cima
+        qce = quadrado de cima esquerda
+        qcm1 = primeiro quadrado de cima do meio
+        qcm2 = segundo quadrado de cima do meio
+        qcd = quadrado de cima direita
+
+dm = div do meio
+    qme = quadrado meio esquerda
+    qmd = quadrado meio direita
+    iq = imagem do quadrado
+
+db = div de baixo
+
+f = footer
