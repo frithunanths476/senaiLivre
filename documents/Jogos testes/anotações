@@ -1,0 +1,27 @@
+bnd = botão da nav da div da direita
+dc = div de cima
+    tc = texto de cima
+    qc = quadrados de cima
+        qce = quadrado de cima esquerda
+        qcm1 = primeiro quadrado de cima do meio
+        qcm2 = segundo quadrado de cima do meio
+        qcd = quadrado de cima direita
+
+dm = div do meio
+    qme = quadrado meio esquerda
+        icon = imagens do carrinho ativos
+        tabE = tabela do quadrado da esqueda
+    qmd = quadrado meio direita
+    iq = imagem do quadrado
+
+db = div de baixo
+        p = pedido
+            pt = pedido texto
+                pte = pedido texto esquerda
+                ptd = pedido texto direita
+            pp = pedidos pedidos
+                ppc = imagns dos pedidos
+        v= vendas
+            vt = vendas texto
+
+f = footer
