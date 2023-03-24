@@ -25,3 +25,31 @@ db = div de baixo
             vt = vendas texto
 
 f = footer
+
+
+
+
+
+#geral{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.esquerda{
+    background-color: #1E1E2D;
+    grid-area: 1 / 1 / 13 / 2; 
+    padding: 10px;
+    height: 100vh;
+}
+
+.esquerda button{
+    background-color: #1E1E2D;
+    color: #FFFFFF;
+}
+
+.dc{
+    grid-area: 2 / 2 / 4 / 13
+}
